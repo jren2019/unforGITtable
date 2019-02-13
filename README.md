@@ -28,7 +28,9 @@ LOCAL
 **$ git diff** 
 * Add all changes to the next commit.  
 **$ git add .**  
-* Commit previously staged changes.  
+* Commit previously staged changes. 
+**$ git add -yu
+* Add all untracked files into the stage workspace
 **$ git commit -m "reminder text"**
 * Push local changes to remote(Github).  
 **$ git push [remote] [branch]** 
